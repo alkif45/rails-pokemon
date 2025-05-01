@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'PokemonGB';
+  src: asset-url('pokemon_gb.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 // Graphical variables
 @import "config/fonts";
 @import "config/colors";
@@ -10,3 +17,8 @@
 // Your CSS partials
 @import "components/index";
 @import "pages/index";
+
+body {
+  font-family: 'PokemonGB', sans-serif;
+  background-color: darkblue;
+}

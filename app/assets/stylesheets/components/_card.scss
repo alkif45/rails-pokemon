@@ -1,0 +1,50 @@
+.pokemon-pic-rounded {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.trainer-pic-rounded {
+  width: 250px;
+  height: auto;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.trainer-image-container {
+  width: 240px;
+  height: 400px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+}
+
+.trainer-image {
+  width: auto;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 5px;
+}
+
+.bg-light-blue {
+  background-color: lightblue;
+}
+
+.card-trainer-size {
+  max-width: 480px;
+  width: 100%;
+  align-items: center;
+}
+
+.card-pokemon-size {
+  max-width: 560px;
+  width: 100%;
+}
+
+.card-trainers-size {
+  max-width: 480px;
+  width: 100%;
+}

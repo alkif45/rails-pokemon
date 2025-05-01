@@ -1,0 +1,20 @@
+<div class="container">
+  <h4><%= link_to "< Pokedex", root_path, class: "btn btn-link" %></h4>
+
+  <h2 class="text-white">Let's Catch Some Pokemon</h2>
+
+  <div class="row">
+    <% @trainers.each do |trainer| %>
+      <div class="col-md-4 d-flex justify-content-center">
+        <div class="card card-trainers-size bg-light-blue d-flex flex-column align-items-center p-3 ">
+          <div class="trainer-image-container">
+            <%= image_tag url_for(trainer.photo), alt: "Trainer picture", class: "trainer-image" %>
+          </div>
+          <h5 class="text-center golden mt-3"><%= trainer.name %></h5>
+          <h5 class="text-center text-white"><%= trainer.age %></h5>
+        </div>
+      </div>
+    <% end %>
+  </div>
+
+</div>
