@@ -6,7 +6,7 @@
   <div class="row">
     <% @trainers.each do |trainer| %>
       <div class="col-md-4 d-flex justify-content-center">
-        <div class="card card-trainers-size bg-light-blue d-flex flex-column align-items-center p-3 ">
+        <div class="card card-trainers-size bg-light-blue d-flex flex-column align-items-center p-3">
           <div class="trainer-image-container">
             <%= image_tag url_for(trainer.photo), alt: "Trainer picture", class: "trainer-image" %>
           </div>
